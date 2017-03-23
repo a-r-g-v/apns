@@ -44,7 +44,9 @@ type Payload struct {
 	Badge            int         `json:"badge,omitempty"`
 	Sound            string      `json:"sound,omitempty"`
 	ContentAvailable int         `json:"content-available,omitempty"`
+	MutableCount     int         `json:"mutable-content"`
 	Category         string      `json:"category,omitempty"`
+	ImageUrl         string      `json:"image_url"`
 }
 
 // NewPayload creates and returns a Payload structure.
